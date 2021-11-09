@@ -4,9 +4,18 @@
 2. CSS transitions
 3. CSS animations
 
+### transition
+- transition
+- transition-delay
+- transition-duration
+- transition-property
+- transition-timing-function
 
+```css
+div{transition: <width/color/background/all> 2s;}
+```
 
-###
+### animation
 - @keyframes
 - animation-name
 - animation-duration
@@ -18,13 +27,11 @@
 - animation
 
 ```css
-/* The animation code */
 @keyframes example {
   from {background-color: red;}
   to {background-color: yellow;}
 }
 
-/* The element to apply the animation to */
 div {
   width: 100px;
   height: 100px;
