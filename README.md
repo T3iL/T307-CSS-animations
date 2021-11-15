@@ -49,10 +49,10 @@ https://3dtransforms.desandro.com/card-flip
 
 
 ```js
-		function zmiana(element){
+function zmiana(element){
 			
-			const order = window.document.defaultView.getComputedStyle(element).getPropertyValue('z-index');
+	const order = window.document.defaultView.getComputedStyle(element).getPropertyValue('z-index');
 			
-			element.style.zIndex = order + 4;
-		}
+	element.style.zIndex = order + 4;
+}
 ```
