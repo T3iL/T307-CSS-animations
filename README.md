@@ -46,3 +46,13 @@ div {
 ```
 
 https://3dtransforms.desandro.com/card-flip
+
+
+```js
+		function zmiana(element){
+			
+			const order = window.document.defaultView.getComputedStyle(element).getPropertyValue('z-index');
+			
+			element.style.zIndex = order + 4;
+		}
+```
